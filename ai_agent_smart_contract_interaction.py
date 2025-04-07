@@ -1,3 +1,11 @@
+import os
+import asyncio
+import time
+from datetime import datetime
+from pathlib import Path
+from dotenv import load_dotenv
+from agents import Agent, FileSearchTool, Runner, WebSearchTool
+
 """
 AI Agent + Smart Contract Interaction (Concept Demo)
 
